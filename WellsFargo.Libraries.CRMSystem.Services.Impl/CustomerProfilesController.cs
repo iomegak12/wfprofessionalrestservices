@@ -58,8 +58,6 @@ namespace WellsFargo.Libraries.CRMSystem.Services.Impl
             }
             catch (Exception exceptionObject)
             {
-                EventLog.WriteEntry("Application", "Error Occurred ... " + exceptionObject.Message, EventLogEntryType.Error);
-
                 throw;
             }
 
@@ -83,8 +81,6 @@ namespace WellsFargo.Libraries.CRMSystem.Services.Impl
             }
             catch (Exception exceptionObject)
             {
-                EventLog.WriteEntry("Application", "Error Occurred ... " + exceptionObject.Message, EventLogEntryType.Error);
-
                 throw;
             }
 
@@ -111,8 +107,6 @@ namespace WellsFargo.Libraries.CRMSystem.Services.Impl
             }
             catch (Exception exceptionObject)
             {
-                EventLog.WriteEntry("Application", "Error Occurred ... " + exceptionObject.Message, EventLogEntryType.Error);
-
                 throw;
             }
 
@@ -137,8 +131,6 @@ namespace WellsFargo.Libraries.CRMSystem.Services.Impl
             }
             catch (Exception exceptionObject)
             {
-                EventLog.WriteEntry("Application", "Error Occurred ... " + exceptionObject.Message, EventLogEntryType.Error);
-
                 throw;
             }
 
@@ -165,8 +157,6 @@ namespace WellsFargo.Libraries.CRMSystem.Services.Impl
             }
             catch (Exception exceptionObject)
             {
-                EventLog.WriteEntry("Application", "Error Occurred ... " + exceptionObject.Message, EventLogEntryType.Error);
-
                 throw;
             }
 
@@ -193,8 +183,6 @@ namespace WellsFargo.Libraries.CRMSystem.Services.Impl
             }
             catch (Exception exceptionObject)
             {
-                EventLog.WriteEntry("Application", "Error Occurred ... " + exceptionObject.Message, EventLogEntryType.Error);
-
                 throw;
             }
 
