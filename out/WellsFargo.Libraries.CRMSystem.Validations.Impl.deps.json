@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WellsFargo.Libraries.CRMSystem.Validations.Impl/1.0.0": {
+        "dependencies": {
+          "WellsFargo.Libraries.CRMSystem.Validations.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "WellsFargo.Libraries.CRMSystem.Validations.Impl.dll": {}
+        }
+      },
+      "WellsFargo.Libraries.CRMSystem.Validations.Interfaces/1.0.0": {
+        "runtime": {
+          "WellsFargo.Libraries.CRMSystem.Validations.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WellsFargo.Libraries.CRMSystem.Validations.Impl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WellsFargo.Libraries.CRMSystem.Validations.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

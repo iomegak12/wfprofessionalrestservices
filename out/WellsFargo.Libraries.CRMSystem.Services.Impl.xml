@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WellsFargo.Libraries.CRMSystem.Services.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController">
+            <summary>
+            Customers API Controller
+            </summary>
+        </member>
+        <member name="M:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController.#ctor(WellsFargo.Libraries.CRMSystem.Domain.Interfaces.ICustomerProfileDomainService)">
+            <summary>
+            Primary Constructor which depends on Customer Profile Domain Services
+            </summary>
+            <param name="customerProfileDomainService"></param>
+        </member>
+        <member name="M:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController.AddNewCustomerProfile(WellsFargo.Libraries.Models.CustomerProfile)">
+            <summary>
+            Adds a New Customer Profile to the CRM System
+            </summary>
+            <param name="newCustomerProfile">New Customer Profile</param>
+            <returns>Added Customer Record</returns>
+        </member>
+        <member name="M:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController.GetCustomerLoyaltyPoint(System.Int32)">
+            <summary>
+            Get Customers' Loyalty Points by Customer Id
+            </summary>
+            <param name="customerProfileId">Customer Profile Id</param>
+            <returns>Loyalty Points</returns>
+        </member>
+        <member name="M:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController.GetCustomerProfile(System.Int32)">
+            <summary>
+            Gets Complete Customer Profile by Customer ID
+            </summary>
+            <param name="customerProfileId">Customer Profile ID</param>
+            <returns>Complete Customer Profile</returns>
+        </member>
+        <member name="M:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController.GetCustomerProfiles(System.String)">
+            <summary>
+            Searches Customer Profiles by Customer Name
+            </summary>
+            <param name="searchString">Search String</param>
+            <returns>Filtered Customer Profiles</returns>
+        </member>
+        <member name="M:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController.GetReviewsByCustomer(System.Int32)">
+            <summary>
+            Gets Product Reviews by Customer ID
+            </summary>
+            <param name="customerProfileId">Customer Profile ID</param>
+            <returns>List of Product Reviews</returns>
+        </member>
+        <member name="M:WellsFargo.Libraries.CRMSystem.Services.Impl.CustomerProfilesController.GetReviewsByProduct(System.Int32)">
+            <summary>
+            Gets Product Reviews by Product ID
+            </summary>
+            <param name="productId">Product ID</param>
+            <returns>List of Product Reviews</returns>
+        </member>
+    </members>
+</doc>
