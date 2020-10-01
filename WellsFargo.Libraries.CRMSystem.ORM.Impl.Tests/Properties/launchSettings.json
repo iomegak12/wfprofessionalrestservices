@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WellsFargo.Libraries.CRMSystem.ORM.Impl.Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "WFCRMSystemDB": "data source=.;initial catalog=WFCRMSystemDB;user id=sa;password=Prestige;"
+      }
+    }
+  }
+}

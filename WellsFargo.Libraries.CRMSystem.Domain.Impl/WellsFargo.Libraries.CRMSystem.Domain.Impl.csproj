@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WellsFargo.Libraries.CRMSystem.Domain.Interfaces\WellsFargo.Libraries.CRMSystem.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.CRMSystem.Validations.Interfaces\WellsFargo.Libraries.CRMSystem.Validations.Interfaces.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.DataAccess.Interfaces\WellsFargo.Libraries.DataAccess.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:2302",
+      "sslPort": 44389
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "CRMSystemDBConnectionString": "data source=RAMTHINKPAD;user id=sa;password=Prestige;initial catalog=WFCRMSystemDB;",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WebApplication1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/customer-profiles/search/Balf",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "CRMSystemDBConnectionString": "data source=RAMTHINKPAD;user id=sa;password=Prestige;initial catalog=WFCRMSystemDB;",
+        "MongoDBConnectionString": "mongodb://localhost:27017/",
+        "MongoDBName": "CustomerProductReviewsDB",
+        "MongoDBCollectionName": "CustomerProductReviews",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\0-Microservices\Demonstrations\CaseStudy\CRMSystemSolution\WellsFargo.Libraries.CRMSystem.Services.Impl\WellsFargo.Libraries.CRMSystem.Services.Impl.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WellsFargo.Libraries.CRMSystem.Domain.Interfaces\WellsFargo.Libraries.CRMSystem.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.CRMSystem.Services.Interfaces\WellsFargo.Libraries.CRMSystem.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.Models\WellsFargo.Libraries.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="WellsFargo.Libraries.CRMSystem.Services.Impl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
