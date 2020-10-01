@@ -125,7 +125,7 @@ namespace WebApplication1
                 swaggerUIOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "Customers API v1");
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
